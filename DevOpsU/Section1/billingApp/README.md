@@ -7,4 +7,5 @@
 esto nos publicara la imagen en la siguiente URL: https://hub.docker.com/repositories/santiagochivata 
 >
 > Para descargar la imagen que ya tenemos en docker hub ingresamos el siguiente comando en la consola ```docker pull santiagochivata/billingapp:latest```
-> Para crear un contenedor a partir de esta imagen ingresamos el siguiiente comando en la consola ```docker run -d -p 80:80 -p 7080:7080 --name localbillingApp santiagochivata/billingapp:latest```
+>
+> Para crear un contenedor a partir de esta imagen ingresamos el siguiente comando en la consola ```docker run -d -p 80:80 -p 7080:7080 --name localbillingApp santiagochivata/billingapp:latest```
